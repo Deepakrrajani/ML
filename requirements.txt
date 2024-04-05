@@ -1,0 +1,4 @@
+fastapi==0.68.0
+Jinja2==3.0.2
+tensorflow==2.8.0
+uvicorn==0.15.0
