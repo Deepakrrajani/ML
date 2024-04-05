@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "main.py",
-      "use": "@vercel/python3.9"
+      "use": "@vercel/python"
     }
   ],
   "routes": [
@@ -10,5 +10,8 @@
       "src": "/(.*)",
       "dest": "main.py"
     }
-  ]
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.9"
+  }
 }
