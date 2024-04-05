@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "main.py",
-      "use": "vercel-python@3.10.10"
+      "use": "vercel-python@3.9"
     }
   ],
   "routes": [
@@ -10,5 +10,9 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ]
+  ],
+  
+  "redirects": [{ "source": "/", "destination": "/main.py" }]
+
+
 }
